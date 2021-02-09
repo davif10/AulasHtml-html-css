@@ -1,0 +1,36 @@
+    <html>
+    <head>
+      <script language="javascript">
+        function Envia(formulatio)
+        {
+               formulario.submit();
+        }
+        function Apaga(formulario)
+    {
+               formulario.reset();
+        }
+      </script>
+    </head>
+     
+    <body>
+    <h1></h1>
+    <form action="" method="post"  name="formulario">
+        Nome:     <input type="text" name="nome" size="30" maxlength="40">
+        <br><br>
+		Endereco: <input type="text" name="email" size="30" maxlength="40">
+        <br><br>
+        E-mail:   <input type="text" name="email" size="30" maxlength="40">
+        <br><br>
+		Sexo:     <input type="text" name="email" size="30" maxlength="40">
+        <br><br>
+		 E-mail:  <input type="text" name="email" size="30" maxlength="40">
+        <br><br>   
+	    Estado:   <input type="text" name="email" size="30" maxlength="40">
+        <br><br>
+        Observacao:<br> <textarea name = "mensagem" cols = "50" rows = "5" > </textarea> <br><br>
+    <!--Chama a função no evento onclick do botão-->
+        <input type="button" value="Redefinir" onclick="Redefinir(this.form);">
+        <input type="button" value="Enviar" onclick="Enviar(this.form);">
+      </form>
+    </body>
+    </html>
